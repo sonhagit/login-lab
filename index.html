@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+                <div class="left">
+                   <div class="logo">
+                    <a href="#">
+                        <img src="https://e1.yotools.net/images/user_image/2023/05/6465925a3b6bc.jpg" alt="" width="212" height="47px">
+                    </a>
+                   </div>
+                   <div class="box">
+                    <div class="box-logo">
+                        <h1>Log In</h1>
+                    </div>
+                    <div class="box-table">
+                        <form action="" method="post">
+                            <label  for="user-name"><p>Username</p></label><br>
+                            <input id="user" type="text" name="" placeholder="kminchelle"><br> 
+                        </form>
+                        <form action="" method="post">
+                            <label class="table-pass" for="">
+                                <p>Password</p>
+                                <span><a href="#">Forget Password?</a></span>
+                            </label> <br>
+                            <input id="passw" type="password" name="" placeholder="0lelplR">
+                        </form>
+                     <div class="btn">
+                        <button class="btn-login" onclick="handleLogin()"> LOGIN IN <span><svg width="18" height="8" viewBox="0 0 18 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.562456 5.40625H14.7468L11.3648 1.11719C11.2687 0.995313 11.3554 0.8125 11.5125 0.8125H13.0312C13.2609 0.8125 13.4789 0.917969 13.6195 1.09844L17.4632 5.97344C17.85 6.46563 17.5007 7.1875 16.875 7.1875H0.562456C0.459332 7.1875 0.374956 7.10313 0.374956 7V5.59375C0.374956 5.49062 0.459332 5.40625 0.562456 5.40625Z" fill="white"/>
+                            </svg></span>
+                            </button>
+                     </div>       
+                     <div class="or-login">
+                        <a href="#">or continue with ?</a>
+                    </div>
+                    <div class="icon">
+                        <ul>
+                            <li>
+                                <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.7662 9.64963H22.7996V9.59983H11.9998V14.3998H18.7815C17.7921 17.1939 15.1335 19.1997 11.9998 19.1997C8.02366 19.1997 4.79992 15.9759 4.79992 11.9998C4.79992 8.02366 8.02366 4.79992 11.9998 4.79992C13.8352 4.79992 15.5049 5.4923 16.7763 6.62329L20.1705 3.22914C18.0273 1.23178 15.1605 0 11.9998 0C5.37291 0 0 5.37291 0 11.9998C0 18.6267 5.37291 23.9996 11.9998 23.9996C18.6267 23.9996 23.9996 18.6267 23.9996 11.9998C23.9996 11.1952 23.9168 10.4098 23.7662 9.64963Z" fill="#FFC107"/>
+                                    <path d="M1.38281 6.41449L5.32534 9.30584C6.39213 6.66468 8.97568 4.79992 11.999 4.79992C13.8344 4.79992 15.5042 5.4923 16.7755 6.62328L20.1697 3.22914C18.0265 1.23178 15.1598 0 11.999 0C7.38991 0 3.39278 2.60215 1.38281 6.41449Z" fill="#FF3D00"/>
+                                    <path d="M12 24C15.0995 24 17.9159 22.8138 20.0452 20.8848L16.3313 17.7421C15.086 18.6891 13.5644 19.2013 12 19.2001C8.87881 19.2001 6.22865 17.2099 5.23027 14.4326L1.31714 17.4475C3.3031 21.3336 7.33623 24 12 24Z" fill="#4CAF50"/>
+                                    <path d="M23.7662 9.64964H22.7996V9.59984H11.9998V14.3998H18.7815C18.3082 15.7296 17.4557 16.8916 16.3293 17.7423L16.3311 17.7411L20.0451 20.8838C19.7823 21.1226 23.9996 17.9997 23.9996 11.9998C23.9996 11.1952 23.9168 10.4098 23.7662 9.64964Z" fill="#1976D2"/>
+                                    </svg></a>
+                                </li>
+                            <li><a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C18.2072 22.5807 20.2772 21.0497 21.7437 19.0074C23.2101 16.965 23.9993 14.5143 24 12C24 5.37 18.63 0 12 0Z" fill="black"/>
+                                </svg></a>
+                                </li>
+                            <li><a href=""><svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.0001 13.0735C25.0001 6.40447 19.6271 0.998474 13.0001 0.998474C6.37007 0.999974 0.99707 6.40448 0.99707 13.075C0.99707 19.1005 5.38607 24.0955 11.1221 25.0015V16.564H8.07707V13.075H11.1251V10.4125C11.1251 7.38697 12.9176 5.71597 15.6581 5.71597C16.9721 5.71597 18.3446 5.95147 18.3446 5.95147V8.92147H16.8311C15.3416 8.92147 14.8766 9.85297 14.8766 10.8085V13.0735H18.2036L17.6726 16.5625H14.8751V25C20.6111 24.094 25.0001 19.099 25.0001 13.0735Z" fill="#059BE5"/>
+                                </svg></a>
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="sign-up">
+                        <a href="#" class="sign-up-text">Don’t have an account yet?</a>
+                        <a href="#" class="sign-up-new">Sign up for free</a>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="img">
+                    <div class="person">
+                        <img class="img-person" src="img/Character-working-laptop-sitting-chair.svg" alt="">
+                    </div>
+                    <div class="plant">
+                        <img class="img-plant" src="name.svg" alt="">
+                    </div>
+                    <div class="img-background"></div>
+                </div>
+                </div>
+            </div>
+            <script src="/main.js">
+
+            </script>
+</body>
+</html>
